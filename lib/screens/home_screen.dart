@@ -4,6 +4,8 @@ import '../widgets/product_card.dart';
 import '../widgets/bottom_nav_bar.dart';
 
 class HomeScreen extends StatelessWidget {
+  const HomeScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     final products = Product.sampleProducts;

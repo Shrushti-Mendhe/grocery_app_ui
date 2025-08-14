@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 class CartScreen extends StatelessWidget {
+  const CartScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     // This is just a placeholder cart screen UI
